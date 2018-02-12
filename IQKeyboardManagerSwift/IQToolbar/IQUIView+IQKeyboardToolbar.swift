@@ -505,7 +505,7 @@ public extension UIView {
     @param action Right button action name. Usually 'doneAction:(IQBarButtonItem*)item'.
     @param shouldShowPlaceholder A boolean to indicate whether to show textField placeholder on IQToolbar'.
     */
-    public func public func addRightButtonOnKeyboardWithText (_ text : String, textAttributes: [NSAttributedStringKey: Any]?, target : AnyObject?, action : Selector, shouldShowPlaceholder: Bool) {
+    public func addRightButtonOnKeyboardWithText (_ text : String, textAttributes: [NSAttributedStringKey: Any]?, target : AnyObject?, action : Selector, shouldShowPlaceholder: Bool) {
         
         var title : String?
 
